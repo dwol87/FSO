@@ -26,7 +26,7 @@ const Statistics = ({ good, neutral, bad, total, average, positive }) => {
       </tbody>
     </table>
   ) : (
-    <p>No feedback given</p>
+    <h3>No feedback given</h3>
   );
 };
 
